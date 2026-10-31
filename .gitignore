@@ -1,11 +1,13 @@
+
 # Build output
-site/
-
-# Python
-__pycache__/
-*.pyc
-.pytest_cache/
-
 # Local environment / secrets — never commit
+# Python
+*.pyc
 .env
 .env.*
+.pytest_cache/
+.venv/
+__pycache__/
+dist/*.tmp
+node_modules/
+site/
